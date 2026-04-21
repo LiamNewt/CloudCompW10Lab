@@ -14,6 +14,7 @@ async function uploadFile() {
     alert("Uploaded!");
 }
 
+
 async function loadStats() {
     const res = await fetch(API + "/reviews");
     const data = await res.json();
