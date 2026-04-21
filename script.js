@@ -1,4 +1,4 @@
-const API = "https://471axqtup3.execute-api.eu-west-1.amazonaws.com/upload-url";
+const API = "https://471axqtup3.execute-api.eu-west-1.amazonaws.com";
 
 async function uploadFile() {
     const file = document.getElementById("fileInput").files[0];
